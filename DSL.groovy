@@ -10,7 +10,7 @@ void createPipeline(it) {
 
     def jobname = it.jobname
     def gitrepo = it.gitrepo
-    def branch = it.branch
+    def gitbranch = it.gitbranch
     def desc = it.description
     pipelineJob(jobname) {
         description(desc)
@@ -23,9 +23,9 @@ void createPipeline(it) {
             cpsScm {
                 scm {
                     git {
+                        branch(gitbranch)
                         remote {
                             url(gitrepo)
-                            refspec(branch)
                         }
                     }
                 }
