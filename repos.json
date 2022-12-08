@@ -3,17 +3,17 @@
       {
          "jobname":"HelloGit-1",
          "gitrepo":"https://github.com/githubtraining/hellogitworld",
-         "description":"HelloGit Repo #1"
+         "description":"HelloGit1"
       },
       {
          "jobname":"HelloGit-2",
          "gitrepo":"https://github.com/githubtraining/hellogitworld",
-         "description":"HelloGit Repo #2"
+         "description":"HelloGit2"
       },
       {
          "jobname":"HelloGit-3",
          "gitrepo":"https://github.com/githubtraining/hellogitworld",
-         "description":"HelloGit Repo #3"
+         "description":"HelloGit2"
       }
    ]
 }
