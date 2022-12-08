@@ -10,6 +10,7 @@ void createPipeline(it) {
 
     def jobname = it.jobname
     def gitrepo = it.gitrepo
+    def branch = it.branch
     def desc = it.description
     pipelineJob(jobname) {
         description(desc)
