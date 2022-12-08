@@ -22,9 +22,9 @@ void createPipeline(it) {
             cpsScm {
                 scm {
                     git {
-                        branch(branch)
                         remote {
                             url(gitrepo)
+                            refspec(branch)
                         }
                     }
                 }
