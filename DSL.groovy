@@ -29,6 +29,7 @@ void createPipeline(it) {
                             cloneOption {
                                 depth(1)
                             }
+                            shallow(true)
                         }
 
                         remote {
