@@ -2,21 +2,21 @@
    "repos":[
       {
          "jobname":"HelloGit-1",
+         "description":"HelloGit Repo #1",
          "gitrepo":"https://github.com/githubtraining/hellogitworld",
-         "gitbranch":"master",
-         "description":"HelloGit Repo #1"
+         "gitbranch":"master"
       },
       {
          "jobname":"HelloGit-2",
+         "description":"HelloGit Repo #2",
          "gitrepo":"https://github.com/githubtraining/hellogitworld",
-         "gitbranch":"master",
-         "description":"HelloGit Repo #2"
+         "gitbranch":"master"
       },
       {
          "jobname":"HelloGit-3",
+         "description":"HelloGit Repo #3",
          "gitrepo":"https://github.com/githubtraining/hellogitworld",
-         "gitbranch":"master",
-         "description":"HelloGit Repo #3"
+         "gitbranch":"master"
       }
    ]
 }
