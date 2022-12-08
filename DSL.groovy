@@ -24,14 +24,6 @@ void createPipeline(it) {
                 scm {
                     git {
                         branch(gitbranch)
-
-                        extensions {
-                            cloneOption {
-                                depth(1)
-                            }
-                            shallow(true)
-                        }
-
                         remote {
                             url(gitrepo)
                         }
