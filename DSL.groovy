@@ -14,6 +14,10 @@ void createPipeline(it) {
     pipelineJob(jobname) {
         description(desc)
 
+        parameters {
+          choiceParam('FooBar', ['SNAFU (default)', 'SUSFU'], 'Select the FooBar')
+        }
+
         definition {
             cpsScm {
                 scm {
